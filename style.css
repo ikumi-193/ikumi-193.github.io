@@ -1,0 +1,405 @@
+/* base */
+/* header */
+/* home */
+/* about */
+/* services */
+/* skills */
+/* portfolio */
+/* contact */
+/* footer */
+/*jQery */
+/* respnsive */
+
+/* base */
+h1,h3,h2,h5,p,a,li{
+  color: #2b2b28;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 4px;
+  
+}
+
+h2{
+  font-size:50px;
+}
+
+/* header */
+.navbar{
+  background-color:#ecdfc8;
+  height:60px;
+}
+
+.nav-link{
+  color: #363636;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+
+/* home */
+
+.home-body{
+  background-image: url("img/home_bg.jpg");
+  background-size:cover;
+  padding-top: 25%;
+  height: 100vh;
+}
+
+.home-title{
+  font-size:80px;  
+}
+.home-lead{
+  margin-top: 50px;
+}
+
+.btn-contact{
+  background-color:#ffaaa6; 
+  color:white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* about */
+.about-body{
+  background-color:#c7b198;
+  padding: 10% 5%;
+}
+
+.main-img{
+  width: 280px;
+  box-shadow: 20px 20px #ffefe0;
+  
+}
+
+.card{
+  background-color:#c7b198 ;
+  border: none;
+  -webkit-transition: all 1s;
+  -webkit-transform: translate(0, 0);
+  opacity: 1;
+}
+
+.card-title::before{
+  content: "❝ ";
+  color:#ffefe0;
+  font-size: 55px;
+}
+
+.card-title{
+  font-size: 55px; 
+  padding-bottom:20px;
+}
+.card-list li{
+  list-style: none;
+  line-height: 35px;
+  font-size:18px;
+}
+.card-list ul{
+  padding-left: 0;
+}
+
+.move {
+  -webkit-transform: translate(-10px, 0);
+  opacity: 0;
+}
+
+/* skills */
+.skills-body{
+  background-image:url(img/skills_bg.jpeg);
+  padding-top: 50px;
+  padding-bottom:25px;
+  background-size:cover;
+}
+.skills-title{
+   background-color:#2b2b28;
+   color: white;
+   font-size: 55px;
+   width: 350px;
+   padding: 10px 50px 10px 5px;
+   box-shadow: 30px 30px white;;
+}
+
+.skills-circle{
+  background-color:rgba(253, 252, 252, 0.9);
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  padding: 60px 0;
+  margin: 60px auto;
+  text-align: center;
+}
+.skills-circle .fas,.fab{
+  font-size:50px;
+  color:gray;
+}
+.skills-title::before{
+  content: "❝ ";
+  color:#c7b198;
+  font-size: 55px;
+}
+.skill-name{
+  color:gray;
+  font-size:20px;
+  letter-spacing: 7px;
+  padding-top: 20px; 
+}
+
+
+.scroll-animation-obj {
+  opacity: 0;
+  transition: all 0.5s ease 0.5s;
+}
+
+.scroll-animation-left {
+  transform: translate(-120px,0);
+}
+
+
+/* portfolio */
+.portfolio-body{
+  background-color: #ffefe0;
+  padding:15% 0;
+}
+
+.portfolio-title{
+  font-size: 55px;
+  text-align: center;
+}
+
+.portfolio-title::before{
+  content: "❝ ";
+  color:#c7b198;
+  font-size: 55px;
+}
+.portfolio-img{
+  width:500px;
+  height:250px;
+}
+
+.box {
+	width:			500px;
+	height:			250px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+  position:		relative;
+  margin:0 auto;
+}
+.caption {
+	font-size:		130%;
+	color:			#fff;
+	padding-top:		80px;
+	padding-left:		100px;
+}
+.mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	
+	transform:		scale(0);
+}
+  .box:hover .mask {
+	-webkit-transform:	scale(1);	
+	transform:		scale(1);
+  }   
+
+
+
+
+
+/* contact */
+.contact-body{
+  background-image:url(img/contact_bg.jpeg);
+  background-size: cover;
+  padding: 150px 0;
+}
+
+.cantact-form{
+  background-color: rgba(253, 252, 252, 0.8);
+  width: 50%;
+  margin:0 auto;
+  text-align: center;
+  padding:50px;
+}
+
+.contact-title{
+  font-size: 55px;
+  color: gray;
+}
+
+.contact-title::before{
+  content: "❝ ";
+  color: #ffaaa6;
+  font-size: 55px;
+}
+
+.text,.formtext{
+  width: 60%;
+  border-radius: 5px;
+  padding:5px;
+}
+
+.contact-item{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  letter-spacing: 5px;
+  color: gray;
+}
+
+.contact-lead{
+  letter-spacing: 5px; 
+  color: gray;
+}
+
+.btn-submit{
+  background-color: #eaceb4;
+  color:white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.errormessage{
+  color: red;
+  font-size:15px;
+}
+/* footer */
+.footer{
+  background-color:#eaceb4;
+  height: 80px;
+  padding-top: 30px;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/* respnsive */
+/* md */
+@media(max-width:991px){
+  .card-title::before { 
+    font-size: 40px;
+  }
+  .skills-title::before { 
+    font-size: 40px;
+  }
+  .portfolio-title::before { 
+    font-size: 40px;
+  }
+  .card-title, .skills-title, .portfolio-title {
+    font-size: 40px; 
+  }
+  .main-img{
+    width:230px;
+   }
+ 
+  .cantact-form{
+    width: 70%;
+  }
+  
+  .text,.formtext{
+    width: 70%;
+  }
+
+}
+/* sm */
+@media(max-width:768px){
+  .home-title{
+    font-size:65px;
+  }
+  .card-list li{
+    list-style: none;
+    line-height: 32px;
+    font-size:16px;
+  }
+   .main-img-position{
+     padding: 0 0 5% 50%;
+   }
+
+   .cantact-form{
+    width: 90%;
+    padding:20px;
+  }
+  .text,.formtext{
+    width: 90%;
+  }
+
+  .navbar{
+    background-color:#ecdfc8;
+    height:75px;
+  }
+
+ 
+}
+
+
+
+@media(max-width:543px){
+ .home-body{
+  padding-top: 40%;
+  
+}
+.main-img-position{
+  padding: 0;
+}
+.main-img{
+  display: block;
+  margin: 0 auto;
+}
+
+.about-body{
+  padding: 20% 5%;
+}
+
+.card{
+  margin-top: 20%;
+}
+ .contact-title::before{
+  content: "❝";
+  font-size: 40px;
+}
+.contact-title{
+  font-size: 40px;
+}
+}
+
+@media(max-width:500px){
+  .portfolio-img{
+    width:300px;
+    height:150px;
+  }
+  .box {
+    width:			300px;
+    height:			150px;
+  }
+  .caption {
+    font-size:		50%;
+    padding-top:		80px;
+    padding-left:		50px;
+  }
+
+  .portfolio-body{
+    padding:40% 0;
+  }
+  
+}
+ @media(max-width:375px){
+   .btn-submit{
+    font-size:15px;
+    padding: 10px 20px;
+  }
+}
