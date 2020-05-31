@@ -182,6 +182,9 @@ h2{
 
 
 /* portfolio */
+.works-box{
+  margin-top:50px;
+}
 
 .spilit{
   width:100px;
